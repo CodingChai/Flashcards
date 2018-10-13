@@ -4,7 +4,7 @@
 Create a flashcard that alternates between its answer and question when being tapped
 
 ### App Walk-though
-<img src="https://imgur.com/TEORYaP" width=200><br>
+<img src="https://i.imgur.com/TEORYaP.gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Xcode
