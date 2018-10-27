@@ -17,6 +17,10 @@ class ViewController: UIViewController {
     
     var firstTime: Bool!
     override func viewDidLoad() {
+        AnswerLabel.layer.masksToBounds=true
+        QuestionLabel.layer.masksToBounds=true
+        AnswerLabel.layer.cornerRadius=20
+        QuestionLabel.layer.cornerRadius=20
         firstTime=true;
     }
 
@@ -33,6 +37,11 @@ class ViewController: UIViewController {
             AnswerLabel.isHidden=false;
             QuestionLabel.isHidden=true;
         }
+    }
+    
+    func upDate(question: String, answer: String){
+        QuestionLabel.text=question
+        AnswerLabel.text=answer
     }
     
 }

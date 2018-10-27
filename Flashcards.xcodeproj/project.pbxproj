@@ -14,6 +14,7 @@
 		3C74889C21728E6A00DE7169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C74889A21728E6A00DE7169 /* LaunchScreen.storyboard */; };
 		3C7488A721728E6A00DE7169 /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7488A621728E6A00DE7169 /* FlashcardsTests.swift */; };
 		3C7488B221728E6A00DE7169 /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7488B121728E6A00DE7169 /* FlashcardsUITests.swift */; };
+		3C9A23CA218507660069F087 /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A23C9218507660069F087 /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3C7488AD21728E6A00DE7169 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7488B121728E6A00DE7169 /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		3C7488B321728E6A00DE7169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9A23C9218507660069F087 /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				3C74889121728E6800DE7169 /* AppDelegate.swift */,
+				3C9A23C9218507660069F087 /* CreationViewController.swift */,
 				3C74889321728E6800DE7169 /* ViewController.swift */,
 				3C74889521728E6800DE7169 /* Main.storyboard */,
 				3C74889821728E6A00DE7169 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				3C74889421728E6800DE7169 /* ViewController.swift in Sources */,
 				3C74889221728E6800DE7169 /* AppDelegate.swift in Sources */,
+				3C9A23CA218507660069F087 /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NK4DPHN8U;
 				INFOPLIST_FILE = Flashcards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NK4DPHN8U;
 				INFOPLIST_FILE = Flashcards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
